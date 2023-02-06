@@ -1,0 +1,6 @@
+framework module Pods_chateo {
+  umbrella header "Pods-chateo-umbrella.h"
+
+  export *
+  module * { export * }
+}

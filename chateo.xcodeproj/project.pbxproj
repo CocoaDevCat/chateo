@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C264ADBA371C882F4D4D83 /* Pods_chateoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F45AE935F8280397F2F684 /* Pods_chateoTests.framework */; };
+		8419604D2990C80A0021E056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419604C2990C80A0021E056 /* AppDelegate.swift */; };
+		8419604F2990C80A0021E056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419604E2990C80A0021E056 /* SceneDelegate.swift */; };
+		841960512990C80A0021E056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841960502990C80A0021E056 /* ViewController.swift */; };
+		841960542990C80A0021E056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841960522990C80A0021E056 /* Main.storyboard */; };
+		841960562990C8120021E056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841960552990C8120021E056 /* Assets.xcassets */; };
+		841960592990C8120021E056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841960572990C8120021E056 /* LaunchScreen.storyboard */; };
+		841960642990C8120021E056 /* chateoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841960632990C8120021E056 /* chateoTests.swift */; };
+		8419606E2990C8120021E056 /* chateoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419606D2990C8120021E056 /* chateoUITests.swift */; };
+		841960702990C8120021E056 /* chateoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419606F2990C8120021E056 /* chateoUITestsLaunchTests.swift */; };
+		8A1BFA35D89DDBFE5A7F71A1 /* Pods_chateo_chateoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B820C6CE7F6B455C039FC488 /* Pods_chateo_chateoUITests.framework */; };
+		C37A9BB5CA8ED6BC61B42603 /* Pods_chateo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AAFCD4AA7A2EA565D21DCD /* Pods_chateo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841960602990C8120021E056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841960412990C80A0021E056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841960482990C80A0021E056;
+			remoteInfo = chateo;
+		};
+		8419606A2990C8120021E056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841960412990C80A0021E056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841960482990C80A0021E056;
+			remoteInfo = chateo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FD165AB7A8DB3C15130C36 /* Pods-chateo-chateoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chateo-chateoUITests.release.xcconfig"; path = "Target Support Files/Pods-chateo-chateoUITests/Pods-chateo-chateoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		182E6EA1D2972E2356E70D96 /* Pods-chateo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chateo.release.xcconfig"; path = "Target Support Files/Pods-chateo/Pods-chateo.release.xcconfig"; sourceTree = "<group>"; };
+		6EFF31BD61F40A47505F9C7B /* Pods-chateo-chateoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chateo-chateoUITests.debug.xcconfig"; path = "Target Support Files/Pods-chateo-chateoUITests/Pods-chateo-chateoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79AAFCD4AA7A2EA565D21DCD /* Pods_chateo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chateo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841960492990C80A0021E056 /* chateo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chateo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8419604C2990C80A0021E056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8419604E2990C80A0021E056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		841960502990C80A0021E056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841960532990C80A0021E056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841960552990C8120021E056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841960582990C8120021E056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8419605A2990C8120021E056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8419605F2990C8120021E056 /* chateoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chateoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841960632990C8120021E056 /* chateoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chateoTests.swift; sourceTree = "<group>"; };
+		841960692990C8120021E056 /* chateoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chateoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8419606D2990C8120021E056 /* chateoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chateoUITests.swift; sourceTree = "<group>"; };
+		8419606F2990C8120021E056 /* chateoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chateoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B820C6CE7F6B455C039FC488 /* Pods_chateo_chateoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chateo_chateoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB29C8D997974BE3C8FD5207 /* Pods-chateoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chateoTests.release.xcconfig"; path = "Target Support Files/Pods-chateoTests/Pods-chateoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB5E6BBEDD54C5E036CD2194 /* Pods-chateo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chateo.debug.xcconfig"; path = "Target Support Files/Pods-chateo/Pods-chateo.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB0B15E7B102B676599F6B4 /* Pods-chateoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chateoTests.debug.xcconfig"; path = "Target Support Files/Pods-chateoTests/Pods-chateoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F45AE935F8280397F2F684 /* Pods_chateoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chateoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841960462990C80A0021E056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37A9BB5CA8ED6BC61B42603 /* Pods_chateo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8419605C2990C8120021E056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C264ADBA371C882F4D4D83 /* Pods_chateoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841960662990C8120021E056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1BFA35D89DDBFE5A7F71A1 /* Pods_chateo_chateoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479B561360382365D2441C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79AAFCD4AA7A2EA565D21DCD /* Pods_chateo.framework */,
+				B820C6CE7F6B455C039FC488 /* Pods_chateo_chateoUITests.framework */,
+				F0F45AE935F8280397F2F684 /* Pods_chateoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D040B34F4F6F0557A72AF30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB5E6BBEDD54C5E036CD2194 /* Pods-chateo.debug.xcconfig */,
+				182E6EA1D2972E2356E70D96 /* Pods-chateo.release.xcconfig */,
+				6EFF31BD61F40A47505F9C7B /* Pods-chateo-chateoUITests.debug.xcconfig */,
+				05FD165AB7A8DB3C15130C36 /* Pods-chateo-chateoUITests.release.xcconfig */,
+				DAB0B15E7B102B676599F6B4 /* Pods-chateoTests.debug.xcconfig */,
+				CB29C8D997974BE3C8FD5207 /* Pods-chateoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		841960402990C80A0021E056 = {
+			isa = PBXGroup;
+			children = (
+				8419604B2990C80A0021E056 /* chateo */,
+				841960622990C8120021E056 /* chateoTests */,
+				8419606C2990C8120021E056 /* chateoUITests */,
+				8419604A2990C80A0021E056 /* Products */,
+				4D040B34F4F6F0557A72AF30 /* Pods */,
+				479B561360382365D2441C23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8419604A2990C80A0021E056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841960492990C80A0021E056 /* chateo.app */,
+				8419605F2990C8120021E056 /* chateoTests.xctest */,
+				841960692990C8120021E056 /* chateoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8419604B2990C80A0021E056 /* chateo */ = {
+			isa = PBXGroup;
+			children = (
+				8419604C2990C80A0021E056 /* AppDelegate.swift */,
+				8419604E2990C80A0021E056 /* SceneDelegate.swift */,
+				841960502990C80A0021E056 /* ViewController.swift */,
+				841960522990C80A0021E056 /* Main.storyboard */,
+				841960552990C8120021E056 /* Assets.xcassets */,
+				841960572990C8120021E056 /* LaunchScreen.storyboard */,
+				8419605A2990C8120021E056 /* Info.plist */,
+			);
+			path = chateo;
+			sourceTree = "<group>";
+		};
+		841960622990C8120021E056 /* chateoTests */ = {
+			isa = PBXGroup;
+			children = (
+				841960632990C8120021E056 /* chateoTests.swift */,
+			);
+			path = chateoTests;
+			sourceTree = "<group>";
+		};
+		8419606C2990C8120021E056 /* chateoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8419606D2990C8120021E056 /* chateoUITests.swift */,
+				8419606F2990C8120021E056 /* chateoUITestsLaunchTests.swift */,
+			);
+			path = chateoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841960482990C80A0021E056 /* chateo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841960732990C8120021E056 /* Build configuration list for PBXNativeTarget "chateo" */;
+			buildPhases = (
+				81363D23DED1CA6F47DDB3C6 /* [CP] Check Pods Manifest.lock */,
+				841960452990C80A0021E056 /* Sources */,
+				841960462990C80A0021E056 /* Frameworks */,
+				841960472990C80A0021E056 /* Resources */,
+				1C643D50CFB31D291DE52CB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chateo;
+			productName = chateo;
+			productReference = 841960492990C80A0021E056 /* chateo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8419605E2990C8120021E056 /* chateoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841960762990C8120021E056 /* Build configuration list for PBXNativeTarget "chateoTests" */;
+			buildPhases = (
+				332FF703DDB3B45E22BF38D9 /* [CP] Check Pods Manifest.lock */,
+				8419605B2990C8120021E056 /* Sources */,
+				8419605C2990C8120021E056 /* Frameworks */,
+				8419605D2990C8120021E056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841960612990C8120021E056 /* PBXTargetDependency */,
+			);
+			name = chateoTests;
+			productName = chateoTests;
+			productReference = 8419605F2990C8120021E056 /* chateoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841960682990C8120021E056 /* chateoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841960792990C8120021E056 /* Build configuration list for PBXNativeTarget "chateoUITests" */;
+			buildPhases = (
+				9CE2A18E9F508A857C69F61A /* [CP] Check Pods Manifest.lock */,
+				841960652990C8120021E056 /* Sources */,
+				841960662990C8120021E056 /* Frameworks */,
+				841960672990C8120021E056 /* Resources */,
+				0AC745A69012CEF7D70B5B4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8419606B2990C8120021E056 /* PBXTargetDependency */,
+			);
+			name = chateoUITests;
+			productName = chateoUITests;
+			productReference = 841960692990C8120021E056 /* chateoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841960412990C80A0021E056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					841960482990C80A0021E056 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8419605E2990C8120021E056 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 841960482990C80A0021E056;
+					};
+					841960682990C8120021E056 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 841960482990C80A0021E056;
+					};
+				};
+			};
+			buildConfigurationList = 841960442990C80A0021E056 /* Build configuration list for PBXProject "chateo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841960402990C80A0021E056;
+			productRefGroup = 8419604A2990C80A0021E056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841960482990C80A0021E056 /* chateo */,
+				8419605E2990C8120021E056 /* chateoTests */,
+				841960682990C8120021E056 /* chateoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841960472990C80A0021E056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841960592990C8120021E056 /* LaunchScreen.storyboard in Resources */,
+				841960562990C8120021E056 /* Assets.xcassets in Resources */,
+				841960542990C80A0021E056 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8419605D2990C8120021E056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841960672990C8120021E056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC745A69012CEF7D70B5B4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chateo-chateoUITests/Pods-chateo-chateoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chateo-chateoUITests/Pods-chateo-chateoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chateo-chateoUITests/Pods-chateo-chateoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C643D50CFB31D291DE52CB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chateo/Pods-chateo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chateo/Pods-chateo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chateo/Pods-chateo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		332FF703DDB3B45E22BF38D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chateoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81363D23DED1CA6F47DDB3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chateo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE2A18E9F508A857C69F61A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chateo-chateoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841960452990C80A0021E056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841960512990C80A0021E056 /* ViewController.swift in Sources */,
+				8419604D2990C80A0021E056 /* AppDelegate.swift in Sources */,
+				8419604F2990C80A0021E056 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8419605B2990C8120021E056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841960642990C8120021E056 /* chateoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841960652990C8120021E056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841960702990C8120021E056 /* chateoUITestsLaunchTests.swift in Sources */,
+				8419606E2990C8120021E056 /* chateoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841960612990C8120021E056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841960482990C80A0021E056 /* chateo */;
+			targetProxy = 841960602990C8120021E056 /* PBXContainerItemProxy */;
+		};
+		8419606B2990C8120021E056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841960482990C80A0021E056 /* chateo */;
+			targetProxy = 8419606A2990C8120021E056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841960522990C80A0021E056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841960532990C80A0021E056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841960572990C8120021E056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841960582990C8120021E056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841960712990C8120021E056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841960722990C8120021E056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841960742990C8120021E056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5E6BBEDD54C5E036CD2194 /* Pods-chateo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chateo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cocoa.dev.cat.chateo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841960752990C8120021E056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182E6EA1D2972E2356E70D96 /* Pods-chateo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chateo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cocoa.dev.cat.chateo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		841960772990C8120021E056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB0B15E7B102B676599F6B4 /* Pods-chateoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.portfolio.eldar.chateoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chateo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chateo";
+			};
+			name = Debug;
+		};
+		841960782990C8120021E056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB29C8D997974BE3C8FD5207 /* Pods-chateoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.portfolio.eldar.chateoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chateo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chateo";
+			};
+			name = Release;
+		};
+		8419607A2990C8120021E056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFF31BD61F40A47505F9C7B /* Pods-chateo-chateoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.portfolio.eldar.chateoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chateo;
+			};
+			name = Debug;
+		};
+		8419607B2990C8120021E056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FD165AB7A8DB3C15130C36 /* Pods-chateo-chateoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.portfolio.eldar.chateoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chateo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841960442990C80A0021E056 /* Build configuration list for PBXProject "chateo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841960712990C8120021E056 /* Debug */,
+				841960722990C8120021E056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841960732990C8120021E056 /* Build configuration list for PBXNativeTarget "chateo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841960742990C8120021E056 /* Debug */,
+				841960752990C8120021E056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841960762990C8120021E056 /* Build configuration list for PBXNativeTarget "chateoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841960772990C8120021E056 /* Debug */,
+				841960782990C8120021E056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841960792990C8120021E056 /* Build configuration list for PBXNativeTarget "chateoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8419607A2990C8120021E056 /* Debug */,
+				8419607B2990C8120021E056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841960412990C80A0021E056 /* Project object */;
+}
